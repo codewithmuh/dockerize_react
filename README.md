@@ -16,8 +16,8 @@ Before you begin, ensure you have the following installed on your system:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-react-app.git
-   cd your-react-app
+   git clone https://github.com/codewithmuh/dockerize_react.git
+   cd dockerize_react
    ```
    
 2. **Build the React Application:**
