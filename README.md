@@ -12,7 +12,6 @@ This repository provides a guide on how to containerize a React application usin
 Before you begin, ensure you have the following installed on your system:
 
 - Docker: [Install Docker](https://docs.docker.com/get-docker/)
-- Node.js: [Install Node.js](https://nodejs.org/)
 
 ## Getting Started
 
@@ -23,16 +22,7 @@ Before you begin, ensure you have the following installed on your system:
    cd dockerize_react
    ```
    
-2. **Build the React Application:**
-
-If you haven't already, build your React application:
-
-   ```bash
-   npm install
-   npm run build
-   ```
-   
-3. **Create a Dockerfile:**
+2. **Create a Dockerfile:**
 
 Create a file named **Dockerfile** in the root of your project with the following content:
 
@@ -60,7 +50,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-4. **Build the Docker Image:**
+3. **Build the Docker Image:**
 
 Build the Docker image using the following command:
 
@@ -94,7 +84,7 @@ Consider using a **.dockerignore** file to exclude unnecessary files and directo
 
 ### Additional Resources
 
-- React Documentation: [Install Docker](https://docs.docker.com/get-docker/)
-- Docker Documentation: [Install Docker](https://react.dev/)
+- [Docker Documentation](https://docs.docker.com/get-docker/)
+- [React Documentation](https://react.dev/)
 
 Feel free to contribute to this repository by opening issues or creating pull requests. Happy Dockerizing!
