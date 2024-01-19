@@ -4,6 +4,8 @@
 
 This repository provides a guide on how to containerize a React application using Docker. Docker allows you to package an application and its dependencies into a container, making it portable and easy to deploy across different environments.
 
+![Terraform course](https://github.com/codewithmuh/dockerize_react/assets/51082957/8bc53f54-3a61-4232-b363-a75811d7834a)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
