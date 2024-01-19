@@ -6,6 +6,7 @@ This repository provides a guide on how to containerize a React application usin
 
 ![Terraform course](https://github.com/codewithmuh/dockerize_react/assets/51082957/8bc53f54-3a61-4232-b363-a75811d7834a)
 
+### Youtube Video URL: https://youtu.be/nL1xTvQ2bOo
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
