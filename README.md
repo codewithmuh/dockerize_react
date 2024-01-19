@@ -65,16 +65,16 @@ Build the Docker image using the following command:
 
 ```bash
 
-docker build -t your-react-app .
-Replace your-react-app with a suitable image name.
+docker build -t react-app .
 ```
+Replace your-react-app with a suitable image name.
 Run the Docker Container:
 
 Run the Docker container using the following command:
 
 ```bash
+docker run -p 3000:3000 -d react-app
 
-docker run -d --name react-app -p 3000:3000 codewithmuh/react-app:latest
 ```
 
 This maps port 3000 on your local machine to port 3000 in the Docker container.
